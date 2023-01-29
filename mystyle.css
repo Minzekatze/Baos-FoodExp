@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Lato", san-serif;
     color: #37393A;
+    line-height: 1.5em;
 
 }
 nav {
@@ -146,8 +147,8 @@ nav {
 .hero-writing button{
     width:20%;
     padding: 1em;
-    background-color: #D6C9C9;
-    color: #37393A;
+    background-color: #77B6EA;;
+    color: #ffff;
     border: none;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #37393A;
@@ -156,7 +157,7 @@ nav {
 }
 
 .hero-writing button:hover{
-    background-color: #C7D3DD;
+    background-color: #E8EEF2;
 }
 .all-content {
     width: 80%;
@@ -166,7 +167,49 @@ nav {
 }
 aside {
     width: 20%;
-    background-color: #D6C9C9;
+    background-color: #E8EEF2;
+    height: 65em;
+
+}
+.aboutme{
+    width: 80%;
+    margin: auto;
+}
+.aside-content{
+
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.aside-title{
+    width: 100%;
+}
+
+.aside-content h2{
+    text-align: center;
+    margin: 2em auto 1em;
+    font-size: 1.5em;
+    font-weight: 300;
+
+}
+#me{
+    width: 80%;
+    height: 25em;
+    margin: auto;
+    background-image: url(/img/me.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px #D6C9C9 solid;
+}
+
+.aboutme h3{
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0.25em ;
+}
+.aboutme p{
+    font-size: 1.25em;
+    font-weight: 300;
 }
 
 .stories-section article{
@@ -177,14 +220,14 @@ aside {
     flex-flow: column wrap;
 
 }
+
 main{
     width: 80%;
     display: flex;
     flex-flow: column wrap;
     margin-right: 1em;
-
 }
-main h1{
+#topper{
     padding: 1em;
     font-size: 2em;
     font-weight: 200;
@@ -205,6 +248,9 @@ main h1{
     font-weight: 300;
     font-size: 1.5em;
     margin-bottom: 0.15em;
+}
+.story-text p{
+    font-size: 1.2em;
 }
 .border{
     margin-top: 2em;
@@ -266,8 +312,8 @@ main h1{
 .newsletter-content button{
     width: 15%;
     padding: 0.5em;
-    background-color:  #D6C9C9;
-    color: #37393A;
+    background-color: #77B6EA;
+    color: #ffff;
     border: none;
     border-radius:5px;
     box-shadow: 3px 3px 3px #37393A;
@@ -276,7 +322,7 @@ main h1{
 }
 
 .newsletter-content button:hover{
-    background-color: #C7D3DD;
+    background-color: #E8EEF2;
 
 }
 
@@ -350,10 +396,10 @@ footer {
 
 }
 .follow-content{
-    width: 80%;
+    width: 100%;
     padding: 1em 1em 2em 1em;
     margin: auto;
-    background-color: #E8EEF2;;
+    background-color: #D6C9C9;
 
 }
 .follow-icons {
@@ -376,17 +422,64 @@ footer {
     padding: 1em;
 }
 .middle-grid{
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: grid;
     padding-top: 2em;
     grid-template-columns: 50% 50%;
     grid-template-rows: 3fr 1fr;
     row-gap: 2em;
-    background-color: #D6C9C9;
+    background-color: #E8EEF2;
     justify-items: center;
 
 }
-.last-content{
-    place-self :baseline;
+.right-side p{
+    padding: 0.25em;
+}
+.right-side h4{
+    padding: 0 0 1em 0;
+    font-size: 1.1em;
+    font-weight: 700;
+
+ }
+.left-side-content{
+    width: 80%;
+
+}
+.left-side p{
+    padding: 0 0 1em 0;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.left-side input{
+    width: 15em;
+    height: 2em;
+    margin: 0 0 1em 0;
+    padding: 1em;
+    border: none;
+    box-shadow: 3px 3px 3px #37393A;
+    
+} 
+textarea{
+    width: 100%;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border: none;
+    box-shadow: 3px 3px 3px #37393A;
+}
+
+.left-side button {
+    width: 15%;
+    padding: 0.5em;
+    background-color: #77B6EA;
+    color: #ffff;
+    border: none;
+    border-radius:5px;
+    box-shadow: 3px 3px 3px #37393A;
+    font-weight: 500;
+    font-size: 0.75em;
+}
+.left-side button:hover{
+    background-color: #E8EEF2;
 }
