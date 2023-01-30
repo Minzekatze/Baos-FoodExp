@@ -12,10 +12,6 @@
 nav {
     height: 6vh;
     display: flex;
-    background-color: #D6C9C9;
-    background-color: #C7D3DD;
-    background-color: #77B6EA;
-    background-color: #37393A;
     background-color: #E8EEF2;
 
 }
@@ -158,6 +154,7 @@ nav {
 
 .hero-writing button:hover{
     background-color: #E8EEF2;
+    color:#37393A;
 }
 .all-content {
     width: 80%;
@@ -168,12 +165,13 @@ nav {
 aside {
     width: 20%;
     background-color: #E8EEF2;
-    height: 65em;
+    height: 100%;
 
 }
 .aboutme{
     width: 80%;
     margin: auto;
+    margin-bottom: 2em;
 }
 .aside-content{
 
@@ -323,6 +321,7 @@ main{
 
 .newsletter-content button:hover{
     background-color: #E8EEF2;
+    color:#37393A;
 
 }
 
@@ -482,4 +481,5 @@ textarea{
 }
 .left-side button:hover{
     background-color: #E8EEF2;
+    color: #37393A;
 }
