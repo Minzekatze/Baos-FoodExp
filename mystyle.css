@@ -59,7 +59,7 @@ nav {
 }
 .hero-section{
     height: 93.66vh;
-    background-image: url(/img/background.jpg);
+    background-image: url(./img/background.jpg);
     background-size: cover;
 }
 .hero-content{
@@ -78,37 +78,37 @@ nav {
     grid-template-columns: 50% 50%;
 }
 .story1-pic1{
-    background-image: url(/img/likethaifoodi.jpg);
+    background-image: url(./img/likethaifoodi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .story1-pic2{
-    background-image: url(/img/likethaiinnen.jpg);
+    background-image: url(./img/likethaiinnen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .story2-pic1{
-    background-image: url(/img/blessedfood.jpg);
+    background-image: url(./img/blessedfood.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .story2-pic2{
-    background-image: url(/img/blessedin.png);
+    background-image: url(./img/blessedin.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .story3-pic1{
-    background-image: url(/img/ilmorofood.jpeg);
+    background-image: url(./img/ilmorofood.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .story3-pic2{
-    background-image: url(/img/ilmoroinn.png);
+    background-image: url(./img/ilmoroinn.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -157,13 +157,13 @@ nav {
     color:#37393A;
 }
 .all-content {
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-flow: row-reverse nowrap;
 }
 aside {
-    width: 20%;
+    width: 30%;
     background-color: #E8EEF2;
     height: 100%;
 
@@ -194,7 +194,7 @@ aside {
     width: 80%;
     height: 25em;
     margin: auto;
-    background-image: url(/img/me.png);
+    background-image: url(./img/me.png);
     background-size: cover;
     background-position: center;
     border: 1px #D6C9C9 solid;
@@ -267,7 +267,7 @@ main{
 .newsletter{
     width: 100%;
     height: 20em;
-    background-image: url(/img/newsletter.jpg);
+    background-image: url(./img/newsletter.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -334,51 +334,51 @@ main{
 
 }
 .pic1{
-    background-image: url(/img/1.jpeg);
+    background-image: url(./img/1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .pic2{
-    background-image: url(/img/2.jpeg);
+    background-image: url(./img/2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .pic3{
-    background-image: url(/img/3.jpg);
+    background-image: url(./img/3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     grid-column: 1 /3; 
 }
 .pic4{
-    background-image: url(/img/4.jpg);
+    background-image: url(./img/4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .pic5{
-    background-image: url(/img/5.jpeg);
+    background-image: url(./img/5.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .pic6{
-    background-image: url(/img/8.jpeg);
+    background-image: url(./img/8.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     grid-column: 1 /3; 
 }
 .pic7{
-    background-image: url(/img/7.jpg);
+    background-image: url(./img/7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .pic8{
-    background-image: url(/img/6.jpeg);
+    background-image: url(./img/6.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
